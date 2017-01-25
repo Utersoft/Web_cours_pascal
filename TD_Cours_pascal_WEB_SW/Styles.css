@@ -1,0 +1,39 @@
+/*
+Theme Name: Theme site ludus 1C
+Theme URI: ludus1C.com
+Author: Stephane Wilhelm
+Description: Theme css site web Ludus 1C
+Version: 1.0
+Licence:: Ludus 1C
+License URI: Ludus1C.com
+Text Domais: ludus1C
+*/
+
+body {
+	color : lightgreen;
+	background: url("Fond/Ludus fond")scroll 500px;
+}
+
+li a {
+	color: red;
+}
+
+ul {
+	margin-top: 50px;
+	text-align: center;
+	list-style-type: none;
+}
+
+header{
+	text-align: center;
+}
+
+footer{
+	margin-top: 300px;
+	background : url("fond/Ludus") no-repeat;
+}
+
+section{
+	margin-top: 100px;
+	color: white;
+}

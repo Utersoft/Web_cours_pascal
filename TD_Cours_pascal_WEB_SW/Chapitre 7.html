@@ -1,0 +1,39 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Cours de pascal</title>
+		<link rel="stylesheet" type="text/css" href="Style Chapitre.css">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	</head>
+
+	<body>
+		<header><h1>Chapitre 7 : Les tableaux/types</h1></header>
+		<aside><h2>Les tableaux</h2></aside>
+		<section><p>Les tableaux sont des matrices qu'on peut remplir de valeur. Chaque case de la matrice peut contenir une valeur.</p>
+		<p>On définit un tableau comme ça "matrice : array[0..10] of integer". Ceci est un tableau à une dimension, pour en ajouter une deuxième il faut faire ainsi "matrice: array[0..10,0..10]".</p>
+		</section>
+		<aside><h2>Les types</h2></aside>
+		<section><p>On déclare les nouveaux types simple de variable dans la partie déclarative du programme et avant la déclaration des variables utilisant ce nouveau type. 
+
+		Type nom_du_type = nouveau_type ;
+		Exemples :
+		Type nom = string[20] ;
+		Type entier = integer ;
+		Type tableau = array [1..100] of byte ;
+		Program exemple24 ;
+		Type chaine = string[20] ;
+		Var nom : chaine ;
+    	age : byte ;
+		BEGIN
+			Write('Entrez votre nom : ') ;
+			ReadLn(nom) ;
+			Write('Entrez votre âge : ') ;
+			ReadLn(age) ;
+			WriteLn('Votre nom est : ',nom,' et votre âge : ',age) ;
+		END.
+		Ce programme exemple 24 utilise un nouveau type appelé chaine qui sert à déclarer la variable nom.></p>
+		</section>
+		<nav> <a href="Chapitre 6">Back : Chapitre 6</a></nav>
+	</body>
+</html>

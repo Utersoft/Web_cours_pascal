@@ -1,0 +1,49 @@
+/*
+Theme Name: Theme site ludus 1C
+Theme URI: ludus1C.com
+Author: Stephane Wilhelm
+Description: Theme css site web Ludus 1C
+Version: 1.0
+Licence:: Ludus 1C
+License URI: Ludus1C.com
+Text Domais: ludus1C
+*/
+
+h1 {
+	color:orange;
+	/*font-size: xx-large; */ /*relative*/
+	font-size: 1em;
+	/*font-size:1.3;
+	font-size:0.8em;*/
+	font-size: 300%;
+	font-family: 'Indie Flower', cursive;
+	font-style: bold;
+}
+body{
+	background-color: grey;
+	margin: auto;
+}
+
+aside {
+	color:orange;
+	font-family: 'Indie Flower', cursive;
+	margin-top: 30px;
+	text-align: center;
+}
+
+section{
+	color : lightgreen;
+	margin-top: 50px;
+	font-family: 'Indie Flower', cursive;
+	text-align: justify;
+}
+nav {
+	margin-top: 100px;
+}
+a {
+	margin-right: 1500px;
+}
+
+a{
+	color: yellow;
+}
